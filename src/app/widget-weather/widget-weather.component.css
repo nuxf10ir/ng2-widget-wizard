@@ -1,0 +1,94 @@
+:host .weather__wrp {
+    background: #5fb3f9;
+    text-align: center;
+    padding: 1em 1em;
+    border-radius: 5px;
+    margin-bottom: 2.5em;
+}
+
+:host .weather__wrp h5 {
+    color: #fff;
+    font-size: 1em;
+}
+
+:host .weather__wrp h2 {
+    color: #fff;
+    font-size: 3.2em;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
+:host .weather__wrp h6 {
+    font-size: 1em;
+    color: #fff;
+    margin:1em 0em 0em 0em;
+}
+
+:host .weather__wrp .w-line {
+    width: 103px;
+    height: 2px;
+    display: block;
+    margin:0.73em auto 0.72em;
+}
+
+:host .weather__wrp .cloud {
+    background: url(/assets/images/cloudy.png)no-repeat;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+@media(max-width:1600px){
+    :host .weather__wrp {
+        margin-bottom:1.95em;
+    }
+}
+
+@media(max-width:1440px){
+    :host .weather__wrp {
+        margin-bottom: 1.5em;
+    }
+}
+
+@media(max-width:1366px){
+    :host .weather__wrp {
+        margin-bottom: 2.5em;
+    }
+}
+
+@media(max-width:1024px){
+    :host .weather__wrp {
+        margin-bottom: 2.3em;
+    }
+}
+
+@media(max-width:768px){
+    :host .weather__wrp {
+        margin-bottom: 2.1em;
+    }
+}
+
+@media(max-width:736px){
+    :host .weather__wrp {
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width:667px){
+    :host .weather__wrp {
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width:640px){
+    :host .weather__wrp {
+        margin-bottom:2.3em;
+    }
+}
+
+@media(max-width:480px){
+    :host .weather__wrp {
+        margin-bottom: 1.5em;
+    }
+}

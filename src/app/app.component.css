@@ -1,0 +1,158 @@
+:host .widget__title {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin: 3em 0em 2em 0em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:host .widget__wrp {
+    width: 40%;
+    margin: 0 auto 7em;
+}
+
+:host .widget__left-col {
+    float: left;
+    width:50%;
+}
+
+:host .widget__right-col {
+    float: right;
+    width: 35%;
+}
+
+:host .clear{
+    clear:both;
+}
+
+:host .copyright {
+    text-align: center;
+    padding:0em 0em 2em 0em;
+}
+
+:host .copyright p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+:host .copyright p a{
+    color: #fd7b87;
+}
+
+:host .copyright p a:hover{
+    color: #fff;
+    text-decoration:none;
+}
+
+:host .hotel__name {
+    position: relative;
+}
+
+:host .hotel__name  img {
+    border-radius: 6px 6px 0px 0px;
+}
+
+:host .hotel__name  h1 {
+    display: block;
+    color: #ffffff;
+    font-size: 4.5em;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+@media(max-width:1440px) {
+    :host .widget__wrp {
+        width: 43%;
+    }
+    :host .widget__right-col {
+        width: 40%;
+    }
+}
+
+@media(max-width:1366px) {
+    :host .widget__wrp {
+        width: 44%;
+    }
+    :host .widget__left-col {
+        width: 55%;
+    }
+}
+
+@media(max-width:1280px) {
+    :host .widget__wrp {
+        width: 47.5%;
+    }
+}
+
+@media(max-width:1024px) {
+    :host .widget__wrp {
+        width: 58.5%;
+    }
+}
+
+@media(max-width:768px) {
+    :host .widget__wrp {
+        width: 76.5%;
+    }
+}
+
+@media(max-width:667px) {
+    :host .widget__wrp {
+        width: 85.5%;
+    }
+}
+
+@media(max-width:640px) {
+    :host .widget__wrp {
+        width: 90.5%;
+    }
+}
+
+@media(max-width:600px) {
+    :host .widget__wrp {
+        width: 94.5%;
+    }
+}
+
+@media(max-width:568px) {
+    :host .widget__wrp {
+        width: 98%;
+    }
+}
+@media(max-width:480px) {
+    :host .widget__wrp {
+        width: 80%;
+    }
+    :host .widget__title {
+        font-size: 1.8em;
+        margin: 1.5em 0em 1em 0em;
+    }
+    :host .widget__left-col {
+        width: 100%;
+        float: none;
+    }
+    :host .widget__right-col {
+        width: 100%;
+        float: none;
+        margin: 1.5em 0em 0em 0em;
+    }
+}
+
+@media(max-width:320px){
+    :host .widget__title {
+        font-size: 1.5em;
+        margin: 1em 0em 1em 0em;
+    }
+    :host .widget__wrp {
+        width: 95%;
+        margin: 0 auto 2em;
+    }
+    :host .copyright p {
+        font-size: 0.85em;
+    }
+}
