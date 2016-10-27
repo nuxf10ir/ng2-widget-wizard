@@ -49,7 +49,7 @@
 }
 
 :host .list__content .line {
-    background: url(/assets/images/line.png) no-repeat;
+    background: url(assets/images/line.png) no-repeat;
     width: 103px;
     height: 2px;
     display: block;
